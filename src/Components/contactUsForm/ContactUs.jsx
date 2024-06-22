@@ -53,7 +53,7 @@ const ContactUsForm = () =>{
         </div>
         {/* <!-- contact left Img--> */}
         <div className="from-left d-none d-lg-block">
-            <img src="assets/img/gallery/contact_form.png" alt="" />
+            <img src="assets/img/gallery/contact_form.jpg" alt="contactform" />
         </div>
     </section>
     )

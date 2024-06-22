@@ -19,26 +19,39 @@ function App() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 3000);
+        }, 10000);
 
         return () => clearTimeout(timer);
     }, []);
     return (
         <>
+
+        
             {isLoading && <Loader />}
             <Header />
             <main>
                 <MainPage />
                 <AboutUs />
                 <OurServices />
-                <ClientFeedback />
+                {/* <ClientFeedback /> */}
                 <Gallery />
-                <Trainers />
+                {/* <Trainers /> */}
                 <MembershipOffers />
                 <ContactUsForm />
-                <Blogs />
+                {/* <Blogs /> */}
+                
             </main>
+            <div style={{position: "fixed", bottom: "60px", right: "20px"}} >
+                <a href="https://wa.me/5491155901207" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                    <img src="assets/img/logo/whatsapp.png" alt="Whatsapp" />
+                </a>
+            </div>
             <Footer />
+
+            
+            
+
+          
         </>
     );
 }

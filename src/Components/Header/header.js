@@ -25,8 +25,8 @@ const Header = () =>{
                                             <li style={{cursor:'pointer'}}><Link to="about" smooth={true} duration={900}>About</Link> </li>
                                             <li style={{cursor:'pointer'}}><Link to="services" smooth={true} duration={900}>Services</Link> </li>
                                             <li style={{cursor:'pointer'}}>  <Link to="gallery" smooth={true} duration={900}>gallery</Link></li>
-                                            <li style={{cursor:'pointer'}}> <Link to="blog" smooth={true} duration={900}>Blog</Link>
-                                            </li>
+                                            {/* <li style={{cursor:'pointer'}}> <Link to="blog" smooth={true} duration={900}>Blog</Link>
+                                            </li> */}
                                             <li style={{cursor:'pointer'}} className="cursor-pointer">  <Link to="contact-us" smooth={true} duration={900}> Contact</Link></li>
                                         </ul>
                                     </nav>

@@ -9,7 +9,7 @@ const AboutUs = () =>{
                 <div className="col-lg-6 col-md-12">
                     {/* <!-- about-img --> */}
                     <div className="about-img ">
-                        <img src="assets/img/gallery/about.png" alt=""/>
+                        <img src="assets/img/gallery/about.jpg" alt=""/>
                     </div>
                 </div>
                 <div className="col-lg-6 col-md-12">
@@ -17,10 +17,10 @@ const AboutUs = () =>{
                         {/* <!-- Section Tittle --> */}
                         <div className="section-tittle section-tittle3 mb-35">
                             <span>ABOUT oUR GYM</span>
-                            <h2>Safe Body building proper Solutions That Saves our Valuable Time!</h2>
+                            <h2>Safe Body building proper Solutions That Saves your Valuable Time!</h2>
                         </div>
-                        <p className="pera-top">Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replication of the designers is intended.</p>
-                        <p className="mb-65 pera-bottom">Brook presents your services with flexible, convefnient and chient anipurpose layouts. You can select your favorite layouts.</p>
+                        <p className="pera-top">At IK Fitness, we're passionate about helping you achieve your fitness goals and create a healthier, happier you. We believe that fitness is a journey, not a destination, and we're here to support you every step of the way.</p>
+                        <p className="mb-65 pera-bottom">Supportive community, expert guidance, and results-oriented personalized plans. We're more than just a gym, we're your partner in health and wellness. </p>
                         <a href="from.html" className="btn">became a member</a>
                     </div>
                 </div>

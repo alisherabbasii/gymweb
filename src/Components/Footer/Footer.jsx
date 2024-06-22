@@ -12,7 +12,7 @@ const Footer = () =>{
                         <div className="col-xl-2 col-lg-2 col-md-4 col-sm-6">
                             <div className="single-footer-caption mb-50">
                                 <div className="footer-tittle">
-                                    <h4>COMPANY</h4>
+                                    <h4>IK FITNESS</h4>
                                     <ul>
                                         <li><a href="#">About Us</a></li>
                                         <li><a href="#">Company</a></li>
@@ -27,15 +27,14 @@ const Footer = () =>{
                                 <div className="footer-tittle">
                                     <h4>Open hour</h4>
                                     <ul>
-                                        <li><a href="#">Monday 11am-7pm</a></li>
-                                        <li><a href="#"> Tuesday-Friday 11am-8pm</a></li>
-                                        <li><a href="#"> Saturday 10am-6pm</a></li>
-                                        <li><a href="#"> Sunday 11am-6pm</a></li>
+                                        
+                                        <li><a href="#"> Monday- Saturday open 24/7 </a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
+                        {/* <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
                             <div className="single-footer-caption mb-50">
                                 <div className="footer-tittle">
                                     <h4>RESOURCES</h4>
@@ -48,7 +47,7 @@ const Footer = () =>{
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-xl-3 col-lg-4 col-md-5 col-sm-6">
                             <div className="single-footer-caption mb-50">
                                 {/* <!-- logo --> */}
@@ -57,7 +56,7 @@ const Footer = () =>{
                                 </div>
                                 <div className="footer-tittle">
                                     <div className="footer-pera">
-                                        <p className="info1">GThe trade war currently ensuing between te US anfd several natxions around thdhe globe, most fiercely with.</p>
+                                        <p className="info1">Your health and wellness journey starts here. Ready to join our fitness family?</p>
                                     </div>
                                 </div>
                                 {/* <!-- Footer Social --> */}
@@ -76,9 +75,9 @@ const Footer = () =>{
                     <div className="row d-flex align-items-center">
                         <div className="col-lg-12">
                             <div className="footer-copy-right text-center">
-                                <p> Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0.
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-   Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. </p>
+                                <p> 
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Eagle Libre Solutions 
+</p>
                             </div>
                         </div>
                     </div>
